@@ -1,0 +1,56 @@
+form {
+  border: 3px solid #f1f1f1;
+  max-width: 300px; /* Postavite maksimalnu širinu forme */
+  margin: 0 auto; /* Centriraj formu */
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 8px; /* Smanjite padding */
+  margin: 4px 0;
+  display: block; /* Postavite input elemente kao block elemente */
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px; /* Smanjite padding */
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: 100%;
+  padding: 6px; /* Smanjite padding */
+  background-color: #f44336;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 8px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  display: block;
+  text-align: center; /* Centriraj tekst */
+  padding-top: 8px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+}
